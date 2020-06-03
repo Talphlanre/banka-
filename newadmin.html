@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        type="text/css">
+    <link rel="stylesheet" type="text/css" href="cssfolder/register.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Banka Nigeria Plc</title>
+
+</head>
+
+<body class="body">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Banka Nigeria PLC</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="logout.html">Logout</a></li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <header class="jumbotron">
+            <div class="container">
+
+                <h1>Welcome To Banka Nigeria Plc<h1>
+            </div>
+        </header>
+
+        <h1>Sign Up A New Admin</h1>
+        <div class="left-box">
+            <form id="form"  onsubmit="signUpAdmin(form); return false" action="adminlist.html" method="POST" name="signup" class="newstaff">
+                <input class="username" type="text" name="username" placeholder="username"/>
+                <input class="password" type="password" name="pswrd"
+                    placeholder="Password: max of 15 chars, @ least a special char &  a nos." />
+                <div class="form-group" style="width: 80%;">
+                        <select class="form-control" name="role" id="role">
+                            <option  value="">role</option>
+                            <option value="Admin">Admin</option>
+                            <option value="Staff">Staff</option>
+                        </select>
+                    </div>
+
+
+                <input id="newAdmin" type="submit" value="Signup" name="signup"/>
+
+            </form>
+        </div>
+
+        <script type="text/javascript" src="./jsfolder/main.js">
+        </script>
+
+</body>
+
+</html>

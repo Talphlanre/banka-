@@ -1,0 +1,23 @@
+.body {
+    
+    background-color: gray;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-width: 100vh;;
+    
+    }
+    
+
+    img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .body, img {
+            width: 100%;
+        } 
+     }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="cssfolder/account.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .currency{
+            position: relative;
+            top: 30px;
+            left: 2px;
+        }
+    </style>
+    <title>Banka Nigeria Plc</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <header class="jumbotron">
+            <div class="container">
+
+                <h1>Welcome To Banka Nigeria Plc<h1>
+            </div>
+        </header>
+
+
+        <div>
+
+            <h1 style="text-align: center;">Open an account with us now</h1>
+            <div style="width: 50%; margin: 20px auto;">
+                <form action="" method="POST" onsubmit="clients(); return false" id="form">
+
+
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="name" placeholder="Full Name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" name="marital" id="marital">
+                            <option value="marital">Marital Status</option>
+                            <option value="Single">Single</option>
+                            <option value="Married">Married</option>
+                            <option value="Widow">Widow</option>
+                            <option value="Widower">Widower</option>
+                            <option value="Divorcee">Divorcee</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="image" placeholder="image url..optional" id="img">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="gender" name="gender" id="gender">
+                            <option value="Gender">Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="number" name="number" placeholder="phone number" id="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="email" placeholder="email" id="email"><br>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <select class="form-control" id="account" name="account_type">
+                            <option value="Account_type">Account Type: </option>
+                            <option value="Savings Account">Savings Account</option>
+                            <option value="current Account">Current Account</option>
+                            <option value="fixed Deposit Account">Fixed Deposit Account</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                            <span class="currency">&#8358;</span>
+                        <input class="form-control" type="number" name="bal" placeholder="opening balance"id="bal">
+                    
+
+
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+
+                    </div>
+
+
+                </form>
+            </div>
+
+            <a href="comments.html">comments</a>
+            <a href=" contacts.html">Contact us today</a>
+            F
+        </div>
+
+    </div>
+    <script type="text/javascript" src="jsfolder/main.js"></script>
+
+</body>
+
+</html>

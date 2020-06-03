@@ -1,0 +1,234 @@
+.body,
+html {
+
+    background-color: brown;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    ;
+    margin: none;
+    padding: none;
+}
+
+.left {
+    /* float: left; */
+    background-color: aqua;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    border-radius: 12px;
+    margin: 10px auto;
+}
+
+.right {
+
+    float: right;
+    background-color: aqua;
+    text-align: center;
+    height: 100%;
+    margin-left: 14px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 10px;
+
+
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 95%;
+    margin: 3px;
+    text-align: center;
+
+}
+
+.history {
+    background-color: #f1f1f1;
+    width: 95%;
+    margin: 3px;
+    text-align: center;
+}
+
+.pig {
+    border-radius: 50%;
+
+}
+
+span {
+    color: red;
+}
+
+.balt {
+    width: auto;
+    height: auto;
+    background-color: rosybrown;
+}
+
+.incremental {
+    width: 20%;
+    margin: auto;
+}
+
+input,
+button {
+    color: red;
+    padding: 10px;
+    display: inline-block;
+}
+
+#overviewhouse {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.overviewtop {
+    background-color: white;
+    height: 15%;
+    width: 100%;
+    margin: 20px auto;
+
+    border-radius: 12px;
+}
+
+.overview2 {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    border-radius: 12px;
+    margin: 20px auto;
+
+
+}
+
+.overview2>div {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 30%;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.stat {
+    background-color: white;
+    height: 35%;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat>div>img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto"
+
+}
+
+.homeicon {
+    background-color: aqua;
+}
+
+.modal-content {
+    width: 500px;
+    height: 300px;
+    background-color: cadetblue;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+#modalimg {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.input {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+.bg-modal {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+    left: 0;
+    bottom: 0;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+#button1 {
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 28px;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+
+#Activate {
+    margin-bottom: 12px;
+
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 28px;
+    color: white;
+    margin-top: 3px;
+    display: inline-block;
+
+}
+#Delete{
+    margin-bottom: 12px;
+
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 28px;
+    color: white;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+
+    .body {
+        width: 100%;
+    }
+}
